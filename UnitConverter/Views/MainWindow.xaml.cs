@@ -23,6 +23,7 @@ namespace UnitConverter
 		public MainWindow()
 		{
 			InitializeComponent();
+			DataContext = new ViewModels.MainWindowViewModel();
 		}
 	}
 }
