@@ -7,10 +7,83 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <StackPanel>
-        <TextBlock Text="단위 변환기" TextAlignment="Center"/>
-        <StackPanel Orientation="Horizontal">
-            <TextBox/>
-            <TextBlock Text="cm" TextAlignment="Right"/>
+        <TextBlock Text="단위 변환기" FontWeight="Bold" TextAlignment="Center" Margin="0,30,0,0" FontSize="30"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,30,0,0">
+            <TextBox Width="100" Margin="0,0,10,0"/>
+            <TextBlock Text="cm"/>
         </StackPanel>
+        <Grid Margin="30">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
+                <TextBlock Text="10" Margin="0,0,5,0"/>
+                <TextBlock Text="밀리미터"/>
+            </StackPanel>
+            <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
+                <TextBlock Text="10" Margin="0,0,5,0"/>
+                <TextBlock Text="센티미터"/>
+            </StackPanel>
+            <StackPanel Grid.Row="0" Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
+                <TextBlock Text="10" Margin="0,0,5,0"/>
+                <TextBlock Text="미터"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
+                <TextBlock Text="10" Margin="0,0,5,0"/>
+                <TextBlock Text="킬로미터"/>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
+                <TextBlock Text="10" Margin="0,0,5,0"/>
+                <TextBlock Text="인치"/>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
+                <TextBlock Text="10" Margin="0,0,5,0"/>
+                <TextBlock Text="피트"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="2" Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
+                <TextBlock Text="10" Margin="0,0,5,0"/>
+                <TextBlock Text="야드"/>
+            </StackPanel>
+            <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
+                <TextBlock Text="10" Margin="0,0,5,0"/>
+                <TextBlock Text="마일"/>
+            </StackPanel>
+            <StackPanel Grid.Row="2" Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
+                <TextBlock Text="10" Margin="0,0,5,0"/>
+                <TextBlock Text="자"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="3" Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
+                <TextBlock Text="10" Margin="0,0,5,0"/>
+                <TextBlock Text="간"/>
+            </StackPanel>
+            <StackPanel Grid.Row="3" Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
+                <TextBlock Text="10" Margin="0,0,5,0"/>
+                <TextBlock Text="정"/>
+            </StackPanel>
+            <StackPanel Grid.Row="3" Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
+                <TextBlock Text="10" Margin="0,0,5,0"/>
+                <TextBlock Text="리"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="4" Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
+                <TextBlock Text="10" Margin="0,0,5,0"/>
+                <TextBlock Text="해리"/>
+            </StackPanel>
+
+
+        </Grid>
     </StackPanel>
 </Window>
