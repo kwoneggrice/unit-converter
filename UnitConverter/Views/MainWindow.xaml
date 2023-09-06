@@ -9,7 +9,7 @@
     <StackPanel>
         <TextBlock Text="단위 변환기" FontWeight="Bold" TextAlignment="Center" Margin="0,30,0,0" FontSize="30"/>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,30,0,0">
-            <TextBox Width="100" Margin="0,0,10,0"/>
+            <TextBox Width="100" Text="{Binding InputNumber, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,10,0" TextAlignment="Right"/>
             <TextBlock Text="cm"/>
         </StackPanel>
         <Grid Margin="30">
@@ -27,59 +27,59 @@
             </Grid.ColumnDefinitions>
 
             <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
-                <TextBlock Text="10" Margin="0,0,5,0"/>
+                <TextBlock Text="{Binding Mm}" Margin="0,0,5,0"/>
                 <TextBlock Text="밀리미터"/>
             </StackPanel>
             <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
-                <TextBlock Text="10" Margin="0,0,5,0"/>
+                <TextBlock Text="{Binding Cm}" Margin="0,0,5,0"/>
                 <TextBlock Text="센티미터"/>
             </StackPanel>
             <StackPanel Grid.Row="0" Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
-                <TextBlock Text="10" Margin="0,0,5,0"/>
+                <TextBlock Text="{Binding M}" Margin="0,0,5,0"/>
                 <TextBlock Text="미터"/>
             </StackPanel>
 
             <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
-                <TextBlock Text="10" Margin="0,0,5,0"/>
+                <TextBlock Text="{Binding Km}" Margin="0,0,5,0"/>
                 <TextBlock Text="킬로미터"/>
             </StackPanel>
             <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
-                <TextBlock Text="10" Margin="0,0,5,0"/>
+                <TextBlock Text="{Binding Inch}" Margin="0,0,5,0"/>
                 <TextBlock Text="인치"/>
             </StackPanel>
             <StackPanel Grid.Row="1" Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
-                <TextBlock Text="10" Margin="0,0,5,0"/>
+                <TextBlock Text="{Binding Feet}" Margin="0,0,5,0"/>
                 <TextBlock Text="피트"/>
             </StackPanel>
 
             <StackPanel Grid.Row="2" Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
-                <TextBlock Text="10" Margin="0,0,5,0"/>
+                <TextBlock Text="{Binding Yard}" Margin="0,0,5,0"/>
                 <TextBlock Text="야드"/>
             </StackPanel>
             <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
-                <TextBlock Text="10" Margin="0,0,5,0"/>
+                <TextBlock Text="{Binding Mile}" Margin="0,0,5,0"/>
                 <TextBlock Text="마일"/>
             </StackPanel>
             <StackPanel Grid.Row="2" Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
-                <TextBlock Text="10" Margin="0,0,5,0"/>
+                <TextBlock Text="{Binding Ja}" Margin="0,0,5,0"/>
                 <TextBlock Text="자"/>
             </StackPanel>
 
             <StackPanel Grid.Row="3" Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
-                <TextBlock Text="10" Margin="0,0,5,0"/>
+                <TextBlock Text="{Binding Gan}" Margin="0,0,5,0"/>
                 <TextBlock Text="간"/>
             </StackPanel>
             <StackPanel Grid.Row="3" Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
-                <TextBlock Text="10" Margin="0,0,5,0"/>
+                <TextBlock Text="{Binding Jung}" Margin="0,0,5,0"/>
                 <TextBlock Text="정"/>
             </StackPanel>
             <StackPanel Grid.Row="3" Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
-                <TextBlock Text="10" Margin="0,0,5,0"/>
+                <TextBlock Text="{Binding Li}" Margin="0,0,5,0"/>
                 <TextBlock Text="리"/>
             </StackPanel>
 
             <StackPanel Grid.Row="4" Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
-                <TextBlock Text="10" Margin="0,0,5,0"/>
+                <TextBlock Text="{Binding Hari}" Margin="0,0,5,0"/>
                 <TextBlock Text="해리"/>
             </StackPanel>
 
